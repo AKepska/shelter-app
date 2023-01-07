@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.javafee.shelter</groupId>
+	<artifactId>shelter-module</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<name>shelter-module</name>
+	<description>Shelter Modules</description>
+	<packaging>pom</packaging>
+
+	<properties>
+		<shelter.version>1.0-SNAPSHOT</shelter.version>
+		<java.version>17</java.version>
+		<lombok.version>1.18.24</lombok.version>
+		<springframework.boot.version>2.5.6</springframework.boot.version>
+		<springdoc.version>1.5.12</springdoc.version>
+		<postgresql.version>42.5.1</postgresql.version>
+		<jackson.version>2.12.4</jackson.version>
+		<unirest-java.version>1.4.9</unirest-java.version>
+	</properties>
+
+	<modules>
+		<module>shelter-web</module>
+		<module>shelter-front</module>
+	</modules>
+</project>
